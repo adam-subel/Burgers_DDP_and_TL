@@ -1,6 +1,6 @@
 # Burgers_DDP_and_TL
 This repository includes the codes to produce datasets and implement the DDP, DSMAG, and TL referenced in the 
-accompanying paper.
+accompanying paper. The following links to a dataset that can be used with the given DSMAG and DDP codes, https://zenodo.org/record/4316338.
  
 ## Stochastic_Burgers_DNS.m
 This code creates a DNS dataset. Parameters like the Reynolds number and resolution can be altered easily to create datasets to experiment with transfer learning.
