@@ -1,6 +1,6 @@
 # Burgers_DDP_and_TL
 This repository includes the codes to produce datasets and implement the DDP, DSMAG, and TL referenced in the 
-accompanying paper. The codes are currently set up to work with the dataset found at https://zenodo.org/record/4316338.
+accompanying paper *Data-driven subgrid-scale modeling of forced Burgers turbulence using deep learning with generalization to higher Reynolds numbers via transfer learning.* The codes are currently set up to work with the dataset found at https://zenodo.org/record/4316338.
  
 ## Stochastic_Burgers_DNS.m
 This code creates a DNS dataset. Parameters like the Reynolds number and resolution can be altered easily to create datasets to experiment with transfer learning.
