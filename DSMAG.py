@@ -79,10 +79,10 @@ def calc_cp(u, gamma):
   return c_p
 
 
-u_bar_dict = sio.loadmat('./drive/My Drive/dealiasing/u_bar_region_' + str(reg) + '.mat')
+u_bar_dict = sio.loadmat('./dealiasing/u_bar_region_' + str(reg) + '.mat')
 u_bar_store=u_bar_dict['u_bar'].transpose()
 
-force_dict = sio.loadmat('./drive/My Drive/dealiasing/f_bar_all_regions.mat')
+force_dict = sio.loadmat('./dealiasing/f_bar_all_regions.mat')
 force_bar=force_dict['f_bar'][:,int((reg-1)*12500)+int(1000000/s):]
 
 
