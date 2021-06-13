@@ -22,3 +22,28 @@ This code trains and runs a posteriori prediction for DDP.
 
 ### Transfer_Learning.py
 This code takes in a set of weights for the ANN used in DDP and retrains it for a different training regime.
+
+## Citation
+<!-- Links to published/arxiv work -->
+Read more on [[arXiv]](https://arxiv.org/pdf/2012.06664.pdf)
+<!-- Use DOI links when available -->
+Read more on [[PoF]](https://doi.org/10.1063/5.0040286)
+```
+@article{subel2020data,
+  title={Data-driven subgrid-scale modeling of forced Burgers turbulence using deep learning with generalization to higher Reynolds numbers via transfer learning},
+  author={Subel, Adam and Chattopadhyay, Ashesh and Guan, Yifei and Hassanzadeh, Pedram},
+  journal={arXiv e-prints},
+  pages={arXiv--2012},
+  year={2020}
+}
+
+@article{subel2021data,
+  title={Data-driven subgrid-scale modeling of forced Burgers turbulence using deep learning with generalization to higher Reynolds numbers via transfer learning},
+  author={Subel, Adam and Chattopadhyay, Ashesh and Guan, Yifei and Hassanzadeh, Pedram},
+  journal={Physics of Fluids},
+  volume={33},
+  number={3},
+  pages={031702},
+  year={2021},
+  publisher={AIP Publishing LLC}
+}
